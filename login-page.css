@@ -1,0 +1,116 @@
+.head {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  justify-content: center;
+  align-content: middle;
+  vertical-align: middle;
+  display: flex;
+}
+
+.row .col-12 hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 1px solid rgb(204, 204, 204);
+}
+
+.social-button{
+  margin-top: 10px;
+  display: flex;
+  text-align: center;
+  vertical-align: middle;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+}
+
+.social-button .col-4 .btn p {
+  font-size: small;
+  font-weight: bold;
+  letter-spacing: 2px;
+  line-height: 1%;
+  display: inline;
+  text-align: center;
+  vertical-align: middle;
+  height: 12px;
+}
+
+.facebook .col-4 .btn{
+  color: white;
+  background-color: #3b5998;
+}
+
+.apple .col-4 .btn{
+  color: white;
+  background-color: #000000;
+}
+
+.google .col-4 .btn{
+  color: #616467;
+  background-color: transparent;
+  border: 2px solid #616467;
+}
+
+#or-line {
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.form-group {
+  font-weight: bolder;
+}
+
+.container .row .col-4 .remember-login {
+  display: inline;
+  margin-top: 10px;
+  vertical-align: middle;
+  justify-content: space-between;
+  align-content: space-between;
+}
+
+.btn-login {
+  height: 45px;
+  width: 50%;
+  float:right;
+  background-color: #15883e;
+  color: white;
+  font-weight: bolder;
+  font-size: 14px;
+  letter-spacing: 2px;
+}
+
+.line-after-login-btn {
+  margin-top: -20px;
+}
+
+a {
+  color: #15883e
+}
+
+a:hover {
+  color: #1DB954;
+}
+
+.btn-login:hover {
+  background-color: #1DB954;
+  color: white
+}
+
+#grey-btn:hover {
+  background-color: #616467;
+  color: white
+}
+
+#face-btn:hover {
+  background-color: #537cd4;
+  color: white
+}
+
+#apple-btn:hover {
+  background-color: #313131;
+  color: white
+}

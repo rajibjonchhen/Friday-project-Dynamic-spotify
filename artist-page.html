@@ -1,0 +1,633 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+    integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+  <link rel="stylesheet" href="artist-page.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">
+  <script src="https://kit.fontawesome.com/73c4ca1b43.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="icon" href="./assets/spotify-icons-logos/icons/01_RGB/02_PNG/Spotify_Icon_RGB_White.png"
+        type="image/icon type">
+  <title>Queen - Spotify</title>
+
+</head>
+
+<body>
+
+  <main class="container-fluid">
+    <div class="row">
+      <div class="col-2"></div>
+      <div class="col-2 side-bar show">
+        <div class="d-flex py-3"><a href="./home-page.html"><img src="./assets/Spotify_Logo_RGB_White.png"
+                    alt="logo" height="40px"></a></div>
+        <a href="./home-page.html">
+            <div class="home d-flex"><i class="bi bi-house-door-fill my-2 px-3"></i><strong>Home</strong></div>
+        </a>
+        <div class="search d-flex"><i class="bi bi-search my-2 px-3"></i><strong>Search</strong></div>
+        <div class="library d-flex"><i class="bi bi-list my-2 px-3"></i><strong>Your Library</strong></div>
+
+        <div class="square d-flex mt-3"><i class="bi bi-plus-square-fill my-2 px-3"></i><strong>Create
+                Playlists</strong></div>
+        <div class="liked-songs d-flex mt-1"><i class="bi bi-heart-fill px-3"></i><strong>Liked Songs</strong>
+        </div>
+        <hr>
+        <div class="sidebar-list mr-n2">
+            <p class="my-1">Boiler Room: Room 1 &#128293</p>
+            <p class="my-1">L'Imperatrice Mix</p>
+            <p class="my-1">Oceanvs Orientalis &#127769</p>
+            <p class="my-1">Afro Indie</p>
+            <p class="my-1">Taba Brasilis &#127809</p>
+            <p class="my-1">Discover Weekly</p>
+            <p class="my-1">Modern Psychedelia</p>
+            <p class="my-1">Voix de l'Hexagone</p>
+            <p class="my-1">Afrobeat Essencials &#9889</p>
+            <p class="my-1">Cuendano Tabado</p>
+            <p class="my-1">Boiler Room: Room 1</p>
+            <p class="my-1">L'Imperatrice Mix</p>
+            <p class="my-1">Oceanvs Orientalis</p>
+            <p class="my-1">Afro Indie</p>
+            <p class="my-1">Taba Brasilis</p>
+            <p class="my-1">Discover Weekly</p>
+            <p class="my-1">Modern Psychedelia &#127752</p>
+            <p class="my-1">Voix de l'Hexagone</p>
+            <p class="my-1">Afrobeat Essencials</p>
+            <p class="my-1">Cuendano Tabado</p>
+        </div>
+        <div class="install d-flex pt-1 mb-2"><i class="bi bi-arrow-down-circle pr-2"></i><strong>Install
+                App</strong></div>
+    </div>
+
+      <div class="col-10 p-0 mx-0">
+
+        <div class="container-fluid pt-3">
+          <div class="container-fluid">
+              <div class="row d-flex justify-content-between align-items-center">
+
+                  <div class="d-flex align-items-center mt-n3">
+
+                      <div>
+                          <i class="bi bi-circle-fill position-relative"
+                              style="font-size: xx-large; color: rgba(0, 0, 0, 0.486);">
+                              <span class="material-icons chevrons position-absolute">chevron_left</span>
+                          </i>
+                          <i class="bi bi-circle-fill position-relative"
+                              style="font-size: xx-large; color: rgba(0, 0, 0, 0.486);">
+                              <span class="material-icons chevrons position-absolute">chevron_right</span>
+                          </i>
+                      </div>
+                  </div>
+
+                  <div class="dropdown align-items-center">
+                      <button class="btn btn-secondary dropdown-toggle"
+                          style="font-size: 15px; font-weight: 500;" type="button" id="dropdownMenuButton"
+                          data-toggle="dropdown" aria-expanded="false">
+                          <i class="bi bi-person-circle mr-2"></i>Username</button>
+                      <div class="dropdown-menu dropdown-menu-right dropdown-secondary"
+                          aria-labelledby="dropdownMenuButton">
+                          <a class="dropdown-item" href="#">Account</a>
+                          <a class="dropdown-item" href="#">Profile</a>
+                          <a class="dropdown-item" href="./login-page.html">Log out</a>
+                      </div>
+                  </div>
+
+              </div>
+          </div>
+      </div>
+
+
+        <div class="container text-white ">
+          <div class="row artist-page-bg">
+            <div class="col-12 p-0 m-0">
+              <img src="./assets/Banner-Queen2.jpg" alt="">
+            </div>
+
+          </div>
+          <div class="relative-artist-info row mb-4">
+            <div class="artist-info align-items-center">
+              <span class="verified-icon"> <i class="bi bi-patch-check-fill"></i></span>
+              <span>Verified artist</span>
+              <h1>Queen</h1>
+              <span> <strong> 12,234,523,345 monthly listeners</strong> </span>
+
+            </div>
+            <!-- second container for the artist song lists -->
+          </div>
+          <div class="row">
+            <div class="col-12 g-0 mt-5 main-list">
+
+              <div class="artist-page-songLists container p-0 mx-0 g-0">
+
+                <div class="row ">
+                  <div class="col-12 col-md-3 mt-2 d-flex justify-content-start align-items-center p-0 ">
+                    <span class="playbtn-1 ml-5"><i class="fas fa-play-circle"></i></span>
+                    <span><button class="btn btn-outline-secondary text-white ml-3 ">Follow</button></span>
+                    <span><a href=""> <i class=" bi bi-three-dots ml-3"></i></a> </span>
+                  </div>
+                </div>
+                <div class="row justify-content-between ">
+                  <div class="col-8 pl-n5">
+                    <h3 class="ml-3">Popular</h3>
+                    <table class="table table-borderless text-white ml-4">
+                      <tbody>
+
+                        <tr class="align-baseline">
+                          <td>
+                            <div>1</div>
+                          </td>
+                          <td>
+                            <div> <img src="/artist-page-pic/icon1.png" style="width:50px" alt="">
+                          </td>
+                          <td>
+                            <div>Another one bite of love</div>
+                          </td>
+                          <td>
+                            <div>
+                              <div>1,222,432,345</div>
+                            </div>
+                          </td>
+                          <td>
+                            <div> <a href=""><i class="far fa-heart"></i></a></div>
+                          </td>
+                          <td>
+                            <div> 3:24</div>
+                          </td>
+                        </tr>
+
+                        <tr>
+                          <td>
+                            <div>2</div>
+                          </td>
+                          <td>
+                            <div> <img src="/artist-page-pic/icon2.png" style="width:50px" alt=""> </div>
+                          </td>
+                          <td>
+                            <div>
+                              <div>Lorem ipsum, dolor sit amet consectetur</div>
+                            </div>
+                          </td>
+                          <td>
+                            <div> 1,222,432,345</div>
+                          </td>
+                          <td>
+                            <div> <a href=""><i class="far fa-heart"></i></a></div>
+                          </td>
+                          <td>
+                            <div> 3:24</div>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <div>3</div>
+                          </td>
+                          <td>
+                            <div> <img src="/artist-page-pic/icon3.png" style="width:50px" alt=""></div>
+                          </td>
+                          <td>
+                            <div> I doloribus aliquid deleniti labore</div>
+                          </td>
+                          <td>
+                            <div> 1,222,432,345</div>
+                          </td>
+                          <td>
+                            <div> <a href=""><i class="far fa-heart"></i></a></div>
+                          </td>
+                          <td>
+                            <div> 3:24</div>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <div>4</div>
+                          </td>
+                          <td>
+                            <div> <img src="/artist-page-pic/icon4.png" style="width:50px" alt=""></div>
+                          </td>
+                          <td>
+                            <div> Saepe doloremque reprehenderit quos! </div>
+                          </td>
+                          <td>
+                            <div> 1,222,432,345</div>
+                          </td>
+                          <td>
+                            <div> <a href=""><i class="far fa-heart"></i></a></div>
+                          </td>
+                          <td>
+                            <div> 3:24</div>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <div>4</div>
+                          </td>
+                          <td>
+                            <div> <img src="/artist-page-pic/icon5.png" style="width:50px" alt=""> </div>
+                          </td>
+                          <td>
+                            <div> Another one bite of love</div>
+                          </td>
+                          <td>
+                            <div> 1,222,432,345</div>
+                          </td>
+                          <td>
+                            <div> <a href=""><i class="far fa-heart"></i></a></div>
+                          </td>
+                          <td>
+                            <div> 3:24</div>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <div>6</div>
+                          </td>
+                          <td>
+                            <div> <img src="/artist-page-pic/icon5.png" style="width:50px" alt=""></div>
+                          </td>
+                          <td>
+                            <div> Non labore, ipsum adipisci </div>
+                          </td>
+                          <td>
+                            <div> 1,222,432,345</div>
+                          </td>
+                          <td>
+                            <div> <a href=""><i class="far fa-heart"></i></a></div>
+                          </td>
+                          <td>
+                            <div> 3:24</div>
+                          </td>
+                        </tr>
+
+                        <tr>
+                          <td>
+                            <div>7</div>
+                          </td>
+                          <td>
+                            <div> <img src="/artist-page-pic/icon5.png" style="width:50px" alt=""> </div>
+                          </td>
+                          <td>
+                            <div> Lorem i veniam perspiciatis sit id</div>
+                          </td>
+                          <td>
+                            <div> 1,222,432,345</div>
+                          </td>
+                          <td>
+                            <div> <a href=""><i class="far fa-heart"></i></a></div>
+                          </td>
+                          <td>
+                            <div> 3:24</div>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <div>8</div>
+                          </td>
+                          <td>
+                            <div> <img src="/artist-page-pic/icon5.png" style="width:50px" alt=""></div>
+                          </td>
+                          <td>
+                            <div> Cupiditate minima distinctio ut consequuntur</div>
+                          </td>
+                          <td>
+                            <div> 1,222,432,345</div>
+                          </td>
+                          <td>
+                            <div> <a href=""><i class="far fa-heart"></i></a></div>
+                          </td>
+                          <td>
+                            <div> 3:24</div>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <div>9</div>
+                          </td>
+                          <td>
+                            <div> <img src="/artist-page-pic/icon5.png" style="width:50px" alt=""></div>
+                          </td>
+                          <td>
+                            <div> Reprehenderit doloribus</div>
+                          </td>
+                          <td>
+                            <div> 1,222,432,345</div>
+                          </td>
+                          <td>
+                            <div> <a href=""><i class="far fa-heart"></i></a></div>
+                          </td>
+                          <td>
+                            <div> 3:24</div>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <div>10</div>
+                          </td>
+                          <td>
+                            <div> <img src="/artist-page-pic/icon5.png" style="width:50px" alt=""></div>
+                          </td>
+                          <td>
+                            <div> Nobis, quibusdam</div>
+                          </td>
+                          <td>
+                            <div> 1,222,432,345</div>
+                          </td>
+                          <td>
+                            <div> <a href=""><i class="far fa-heart"></i></a></div>
+                          </td>
+                          <td>
+                            <div> 3:24</div>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+
+
+
+
+                  </div>
+                  <div class="col-12 col-lg-3">
+                    <h3>Artist Pick</h3>
+
+                    <div class="d-flex ">
+                      <img src="/artist-page-pic/icon8.png" id="artist-pick-img" alt="">
+                      <div class="m-2">
+                        <div class=" d-flex align-items-center ">
+                          <img class="w-100 post-by-img mr-1" src="/artist-page-pic/post.png" alt="">
+                          <span>Posted by</span>
+                        </div>
+                        <div> Queen Best of<br><strong>Queen</strong></div>
+
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="artist-page-cards container-fluid ">
+                  <h2>Popular Series</h2>
+                  <div class="row d-flex justify-content-around mt-2">
+                    <div class="col-12 col-sm-6 col-lg-2  m-0 p-0 mt-2">
+                      <div class="card">
+                        <img src="/artist-page-pic/icon7.png" width="70px" class="card-img-top" alt="...">
+                        <div class="playbtn-2">
+                          <i class="fas fa-play-circle"></i>
+                        </div>
+                        <div class="card-body">
+                          <p class="card-text"> The Strange</p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-12 col-sm-6 col-lg-2 m-0 p-0 mt-2">
+                      <div class="card">
+                        <img src="/artist-page-pic/icon4.png" width="70px" class="card-img-top" alt="...">
+                        <div class="playbtn-2">
+                          <i class="fas fa-play-circle"></i>
+                        </div>
+                        <div class="card-body">
+                          <p class="card-text"> Red Light</p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-12 col-sm-6 col-lg-2 m-0 p-0  mt-2">
+                      <div class="card">
+                        <img src="/artist-page-pic/icon3.png" width="70px" class="card-img-top" alt="...">
+                        <div class="playbtn-2">
+                          <i class="fas fa-play-circle"></i>
+                        </div>
+                        <div class="card-body">
+                          <p class="card-text"> Indie mono</p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-12 col-sm-6 col-lg-2  m-0 p-0 mt-2">
+                      <div class="card">
+                        <img src="/artist-page-pic/icon2.png" width="70px" class="card-img-top" alt="...">
+                        <div class="playbtn-2">
+                          <i class="fas fa-play-circle"></i>
+                        </div>
+                        <div class="card-body">
+                          <p class="card-text"> Soave</p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-12 col-sm-6 col-lg-2  m-0 p-0 mt-2">
+                      <div class="card">
+                        <img src="/artist-page-pic/icon1.png" width="70px" class="card-img-top" alt="...">
+                        <div class="playbtn-2">
+                          <i class="fas fa-play-circle"></i>
+                        </div>
+                        <div class="card-body">
+                          <p class="card-text"> The C. M.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+
+                <div class="artist-page-cards container-fluid ">
+                  <h2>Popular Series</h2>
+                  <div class="row d-flex justify-content-around">
+                    <div class="col-12 col-sm-6 col-lg-2  m-0 p-0 mt-2">
+                      <div class="card">
+                        <img src="/artist-page-pic/icon8.png" width="70px" class="card-img-top" alt="...">
+                        <div class="playbtn-2">
+                          <i class="fas fa-play-circle"></i>
+                        </div>
+                        <div class="card-body">
+                          <p class="card-text"> The Strange</p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-12 col-sm-6 col-lg-2 m-0 p-0 mt-2">
+                      <div class="card">
+                        <img src="/artist-page-pic/icon5.png" width="70px" class="card-img-top" alt="...">
+                        <div class="playbtn-2">
+                          <i class="fas fa-play-circle"></i>
+                        </div>
+                        <div class="card-body">
+                          <p class="card-text"> Red Light</p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-12 col-sm-6 col-lg-2 m-0 p-0  mt-2">
+                      <div class="card">
+                        <img src="/artist-page-pic/icon2.png" width="70px" class="card-img-top" alt="...">
+                        <div class="playbtn-2">
+                          <i class="fas fa-play-circle"></i>
+                        </div>
+                        <div class="card-body">
+                          <p class="card-text"> Indie mono</p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-12 col-sm-6 col-lg-2  m-0 p-0 mt-2">
+                      <div class="card">
+                        <img src="/artist-page-pic/icon1.png" width="70px" class="card-img-top" alt="...">
+                        <div class="playbtn-2">
+                          <i class="fas fa-play-circle"></i>
+                        </div>
+                        <div class="card-body">
+                          <p class="card-text"> Soave</p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-12 col-sm-6 col-lg-2  m-0 p-0 mt-2">
+                      <div class="card">
+                        <img src="/artist-page-pic/icon7.png" width="70px" class="card-img-top" alt="...">
+                        <div class="playbtn-2">
+                          <i class="fas fa-play-circle"></i>
+                        </div>
+                        <div class="card-body">
+                          <p class="card-text"> The C. M.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+
+                <div class="artist-page-cards container-fluid mb-5">
+                  <h2>Newly Added</h2>
+                  <div class="row d-flex justify-content-around">
+                    <div class="col-12 col-sm-6 col-lg-2  m-0 p-0 mt-2">
+                      <div class="card">
+                        <img src="/artist-page-pic/icon6.png" width="70px" class="card-img-top" alt="...">
+                        <div class="playbtn-2">
+                          <i class="fas fa-play-circle"></i>
+                        </div>
+                        <div class="card-body">
+                          <p class="card-text"> The Strange</p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-12 col-sm-6 col-lg-2 m-0 p-0 mt-2">
+                      <div class="card">
+                        <img src="/artist-page-pic/icon2.png" width="70px" class="card-img-top" alt="...">
+                        <div class="playbtn-2">
+                          <i class="fas fa-play-circle"></i>
+                        </div>
+                        <div class="card-body">
+                          <p class="card-text"> Red Light</p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-12 col-sm-6 col-lg-2 m-0 p-0  mt-2">
+                      <div class="card">
+                        <img src="/artist-page-pic/icon3.png" width="70px" class="card-img-top" alt="...">
+                        <div class="playbtn-2">
+                          <i class="fas fa-play-circle"></i>
+                        </div>
+                        <div class="card-body">
+                          <p class="card-text"> Indie mono</p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-12 col-sm-6 col-lg-2  m-0 p-0 mt-2">
+                      <div class="card">
+                        <img src="/artist-page-pic/icon1.png" width="70px" class="card-img-top" alt="...">
+                        <div class="playbtn-2">
+                          <i class="fas fa-play-circle"></i>
+                        </div>
+                        <div class="card-body">
+                          <p class="card-text"> Soave</p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-12 col-sm-6 col-lg-2  m-0 p-0 mt-2">
+                      <div class="card">
+                        <img src="/artist-page-pic/icon4.png" width="70px" class="card-img-top" alt="...">
+                        <div class="playbtn-2">
+                          <i class="fas fa-play-circle"></i>
+                        </div>
+                        <div class="card-body">
+                          <p class="card-text"> The C. M.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          
+        </div>
+
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="play-bar container-fluid mb-n4">
+        <div class="row align-items-center">
+            <div class="col-12 col-12 m-0 m-md-0 col-lg-3 align-items-center d-inline-block play-hidden">
+                <div class="d-flex justify-content-around align-items-center">
+                    <img src="https://picsum.photos/50/50" style="width:55px" alt="">
+                    <div class="d-inline-block">
+                        <p class="p-0 m-0">We Will Rock You <br> <small>Queen</small></p>
+                    </div>
+                    <i class="far fa-heart"></i>
+                    <i class="bi bi-pip"></i>
+                </div>
+            </div>
+            <div class="col-12 col-12 m-0 pb-n5 m-md-0 col-lg-7 play-hidden-center">
+                <div class="d-flex justify-content-center align-items-center">
+                    <i class="fas fa-random mx-2"></i>
+                    <i class="fas fa-step-backward mx-2"></i>
+                    <i class="bi bi-play-circle-fill mx-2 play-bottom"></i>
+                    <i class="fas fa-step-forward mx-2"></i>
+                    <i class="fas fa-retweet mx-2"></i>
+                </div>
+                <div class="d-flex justify-content-center mt-n2 align-items-center">
+                    <span class="mr-2" style="font-size: 14px;">3:45</span>
+                    <hr>
+                    <span class="ml-2" style="font-size: 14px;">4:01</span>
+                </div>
+            </div>
+            <div class="col-12 m-0 m-md-0 col-lg-2 d-flex justify-content-around align-items-center play-hidden">
+                <i class="bi bi-mic"></i>
+                <i class="bi bi-card-text"></i>
+                <i class="bi bi-pc-display"></i>
+                <i class="bi bi-volume-up"></i>
+                <span class="volume">
+                    <hr>
+                </span>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+
+  <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>

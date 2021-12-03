@@ -1,0 +1,251 @@
+body {
+  background-color: white !important;
+  color: white;
+}
+
+.chevrons {
+  color: white;
+  font-size: xx-large !important;
+  left: 0px;
+  bottom: 5px;
+}
+
+.dropdown, .dropdown-toggle, .dropdown-menu, .dropdown-item {
+  background-color: rgba(0, 0, 0, 0.486);
+  color: white;
+}
+
+.dropdown, .dropdown-toggle {
+  border-radius: 30px;
+  border-width: 0;
+}
+
+#dropdownMenu2 {
+  background-color: transparent !important;
+}
+
+.side-bar {
+  background-color: black;
+  height: 100vh;
+  display: inline-block;
+  color: rgb(134, 136, 148);
+  z-index: 10;
+  position: fixed;
+  left: 0;
+  min-width: fit-content;
+  transition: all 0.5s linear;
+}
+
+.sidebar-list {
+  height: 260px;
+  font-weight: 400;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #161616;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+.home,
+.search,
+.library,
+.square,
+.liked-songs {
+  font-size: 15px;
+  align-items: center;
+}
+
+.home {
+  color: white;
+  background-color: rgb(40, 40, 40);
+  border-radius: 4px;
+}
+
+.bi-list {
+  transform: rotate(90deg);
+}
+
+.bi-house-door-fill,
+.bi-search,
+.bi-list,
+.bi-plus-square-fill,
+.bi-heart-fill {
+  font-size: 20px;
+}
+
+hr {
+  border-color: rgb(77, 77, 77);
+}
+
+.card-text {
+  font-size: 13px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+
+.card {
+  background: rgba(121, 121, 121, 0.2);
+  color: white;
+}
+
+a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.container-header {
+  background-color: #00000066 !important;
+}
+
+.headerSmallRow {
+  color: white;
+  margin-left: 5px;
+}
+
+#albumImg {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.album-title {
+  color: white;
+}
+.album-header {
+  color: white;
+}
+.ancher-header {
+  color: white;
+  margin-left: 5px;
+}
+.table {
+  color: white;
+}
+.link {
+  color: rgb(165, 165, 165);
+}
+.colors {
+  columns: white;
+}
+.TheaderText {
+  color: rgb(165, 165, 165);
+}
+
+/**/
+.shortWidth {
+  width: 32px;
+}
+
+#copyright p {
+  font-size: 0.7em;
+}
+
+.bottom-album #seeMore {
+  color: white;
+}
+
+.card {
+  /* background-color: #121212; */
+  margin-top: 3px;
+}
+.card-popular-release {
+  width: 13rem;
+  height: 17rem;
+  background: #121212;
+  transition: 0.3s;
+}
+.card-popular-release:hover {
+  width: 13rem;
+  height: 17rem;
+  box-shadow: 1px 1px 5px 5px rgb(150, 150, 150, 0.2);
+  background: #313030;
+}
+.album-img {
+  width: 11rem;
+  height: 11rem;
+}
+.card-album-text {
+  font-size: 13px;
+  color: rgb(192, 192, 192);
+}
+.card {
+  color: white;
+}
+.card:hover {
+  color: #00ff00;
+}
+.card-body {
+  color: white;
+}
+.playButton {
+  color: white;
+}
+.card-about-contents {
+  margin-top: 350px;
+  margin-left: 50px;
+}
+/* .bottom-album {
+  background-color: #121212;
+} */
+#botton-title a {
+  text-decoration: none;
+  color: white;
+}
+
+i:hover{
+  transform: scale(1.1);
+}
+
+.play-bar{
+  height: 110px;
+  width: 100vw;
+  background-color:rgb(24,24,24);
+  position: fixed;
+  bottom:0;
+  z-index: 100;
+  color: rgb(167, 160, 160);
+}
+
+.play-hidden-center {
+  margin-left: 0;
+  margin-right: 0;
+  justify-content: center;
+}
+
+@media(max-width: 1000px) {
+  .play-hidden {display: none !important;}
+}
+
+.play-bar>.row div:nth-of-type(2) i:nth-of-type(3) {
+font-size: 50px;
+}
+
+.play-bar hr{
+    width: 700px;
+    border:3px solid grey;
+    border-radius: 5px;
+}
+
+.volume hr{
+    width: 70px;
+    border:3px solid grey;
+    border-radius: 5px;
+}
+
+.play-bottom {
+  font-size: 35px !important;
+  color: white;
+}
