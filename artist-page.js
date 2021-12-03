@@ -19,14 +19,14 @@
 
 
     const displaySongs = function(songs){
-       let img = document.querySelector("main img:first-of-type")
+       let img = document.querySelector("main .artist-page-bg img:first-of-type")
         let h1 = document.querySelector("h1")
         h1.innerHTML= `${songs.name}`
         img.src = `${songs.picture_xl}`
-        let artistPicture = img.src
+        
         img.alt = `image of ${songs.name}`
-        let table = document.getElementsByTagName("table")
-        let songList = songs
+        let table = document.querySelector("table")
+        
         // songList.foreach((song) => {
            
         table.innerHTML += `<tr class="align-baseline">
@@ -34,7 +34,7 @@
                             <div>1</div>
                           </td>
                           <td>
-                            <div> <img src=`${artistPicture}` style="width:50px" alt="">
+                            <div> <img src="${songs.picture_xl}" style="width:50px" alt="">
                           </td>
                           <td>
                             <div>Another one bite of love</div>
@@ -60,5 +60,4 @@ window.onload = function(){
 
   loadSongs()
 }
- console.log("abcde")
-
+ 
