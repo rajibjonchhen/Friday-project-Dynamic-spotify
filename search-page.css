@@ -1,6 +1,124 @@
 body {
   background-color: black;
 }
+
+.bi-toggle-on, .bi-toggle-off {
+  color: rgba(0, 0, 0, 1);
+  margin-right: 20px;
+  font-size: 45px;
+  z-index: 1;
+}
+
+.bi-toggle-on::after {
+  content: "";
+  position: absolute;
+  width: 55%;
+  height: 40%;
+  border-radius: 50%;
+  background-color: rgb(199, 199, 199);
+  top: 20px;
+  left: 19px;
+  z-index: -1;
+}
+
+.bi-toggle-off::after {
+  content: "";
+  position: absolute;
+  width: 90%;
+  height: 40%;
+  border-radius: 35%;
+  background-color: rgb(199, 199, 199);
+  top: 20px;
+  left: 2px;
+  z-index: -1;
+}
+
+.chevrons {
+  color: white;
+  font-size: xx-large !important;
+  left: 0px;
+  bottom: 5px;
+}
+
+.dropdown, .dropdown-toggle, .dropdown-menu, .dropdown-item {
+  background-color: rgba(0, 0, 0, 0.486);
+  color: white;
+}
+
+.dropdown, .dropdown-toggle {
+  border-radius: 30px;
+  border-width: 0;
+}
+
+.side-bar {
+  background-color: black;
+  height: 100vh;
+  display: inline-block;
+  color: rgb(134, 136, 148);
+  z-index: 10;
+  position: fixed;
+  left: 0;
+  min-width: fit-content;
+  transition: all 0.5s linear;
+}
+
+@media (max-width: 1000px){
+  .side-bar {display: none};
+}
+
+.sidebar-list {
+  height: 260px;
+  font-weight: 400;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  height: 0px;
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #161616;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+.home,
+.search,
+.library,
+.square,
+.liked-songs {
+  font-size: 15px;
+  align-items: center;
+}
+
+.home {
+  color: white;
+  background-color: rgb(40, 40, 40);
+  border-radius: 4px;
+}
+
+.bi-list {
+  transform: rotate(90deg);
+}
+
+.bi-house-door-fill,
+.bi-search,
+.bi-list,
+.bi-plus-square-fill,
+.bi-heart-fill {
+  font-size: 20px;
+}
+
+hr {
+  border-color: rgb(77, 77, 77);
+}
+
 .box1-img,
 .box2-img,
 .box3-img,

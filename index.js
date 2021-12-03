@@ -1,8 +1,5 @@
 
 
-
-// 
-
 const loadAlbums = function(arrayOfSinger){
 
     arrayOfSinger.forEach(singer =>{
@@ -40,15 +37,11 @@ const loadAlbums = function(arrayOfSinger){
         </div>`
             row.appendChild(col) 
         })
-
-
 }
 
 window.onload = function(){
 let arrayOfSinger = ["eminem","metallica","behemoth"]
     loadAlbums(arrayOfSinger)
-
-    let id = url.searchParams.get("id");
 
 }
 
