@@ -33,7 +33,7 @@ const loadAlbums = function(arrayOfSinger){
                     class="bi bi-play-circle-fill play-circle position-relative"></i></div>
                     <a href="/album-page.html?id=${song.album.id}"><img src="${song.album.cover_small}" class="small-card-img ml-n3" alt="cover"></a>
             <strong class="text-white mx-2">${song.album.title}</strong>
-            <a href="/album-page.html?id=${song.artist.id}">${song.artist.name}</a>
+            <a href="/artist-page.html?id=${song.artist.id}">${song.artist.name}</a>
         </div>`
             row.appendChild(col) 
         })
