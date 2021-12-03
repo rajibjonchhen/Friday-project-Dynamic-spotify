@@ -29,7 +29,13 @@
         <a href="./home-page.html">
           <div class="home d-flex"><i class="bi bi-house-door-fill my-2 px-3"></i><strong>Home</strong></div>
         </a>
-        <div class="search d-flex"><i class="bi bi-search my-2 px-3"></i><strong>Search</strong></div>
+        <div class="search d-flex">
+          <form action="/action_page.php">
+            <input id="searchBar" type="text" placeholder="Search.." name="search">
+            <button type="submit"><i class="fa fa-search"></i></button>
+          </form>
+          <!-- <i class="bi bi-search my-2 px-3"></i><strong>Search</strong> -->
+        </div>
         <div class="library d-flex"><i class="bi bi-list my-2 px-3"></i><strong>Your Library</strong></div>
 
         <div class="square d-flex mt-3"><i class="bi bi-plus-square-fill my-2 px-3"></i><strong>Create
@@ -99,9 +105,8 @@
         </div>
 
 
-        <div
-          class="container-fluid d-flex flex-column flex-md-row text-white align-items-center align-items-md-end p-1 p-sm-2 p-md-3 m-0">
-          <img src="https://picsum.photos/200/200" class="img-fluid mr-3" alt="AnyGivenDay" id="albumImg" />
+        <div class="eljumbotron container-fluid d-flex flex-column flex-md-row text-white align-items-center align-items-md-end p-1 p-sm-2 p-md-3 m-0">
+          <!-- <img src="https://picsum.photos/200/200" class="img-fluid mr-3" alt="AnyGivenDay" id="albumImg" />
           <div class="album-heder flex-coloumn px-2">
             <h6 class="album-title">ALBUM</h6>
             <h1 class="album-header">My Longest Way Home</h1>
@@ -114,7 +119,7 @@
                 <span class="headerSmallRow">1hr 11 min</span>
               </div>
             </div>
-          </div>
+          </div>  -->
         </div>
         <div class="container-header p-1 p-sm-2 p-md-3"></div>
         <!--   here is end of album header-->
@@ -176,7 +181,7 @@
               </tr>
             </thead>
             <tbody class="colors">
-              <tr class="align-middle">
+              <!-- <tr class="align-middle">
                 <th class="TheaderText align-middle shortWidth p-1" scope="row">1</th>
                 <td class="TheaderText align-middle p-1">Darkness Within <br /><a class="link text-secondary" href="#">Any Given
                     Day</a>
@@ -238,7 +243,7 @@
                 <td class="TheaderText align-middle p-1">Darkness Within<br /><a class="link text-secondary" href="#">Any Given Day</a>
                 </td>
                 <td class="TheaderText align-middle text-right p-1">5:40</td>
-              </tr>
+              </tr> -->
             </tbody>
           </table>
           <!-- copy right part here -->
@@ -362,7 +367,7 @@
     </footer>
 
 
-
+    <script src="scriptalbum.js"></script>
       <script src="https://kit.fontawesome.com/73c4ca1b43.js" crossorigin="anonymous"></script>
 
       <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
