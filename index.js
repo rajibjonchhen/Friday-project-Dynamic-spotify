@@ -29,10 +29,12 @@ const loadAlbums = function(arrayOfSinger){
             let col = document.createElement("div")
             col.className = ("col-12", "col-sm-6", "col-md-4" )
             col.innerHTML += `<div class="small-card align-items-center position-relative">
+            <a href="/album-page.html?id=${song.album.id}">
             <div class="play-btn position-absolute"><i
                     class="bi bi-play-circle-fill play-circle position-relative"></i></div>
-                    <a href="/album-page.html?id=${song.album.id}"><img src="${song.album.cover_small}" class="small-card-img ml-n3" alt="cover"></a>
+                    <img src="${song.album.cover_small}" class="small-card-img ml-n3" alt="cover">
             <strong class="text-white mx-2">${song.album.title}</strong>
+            </a>
             <a href="/artist-page.html?id=${song.artist.id}">${song.artist.name}</a>
         </div>`
             row.appendChild(col) 

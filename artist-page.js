@@ -1,7 +1,7 @@
 
-    const loadSongs = function(){
+    const loadSongs = function(id){
 
-    fetch("https://striveschool-api.herokuapp.com/api/deezer/artist/119", {
+    fetch("https://striveschool-api.herokuapp.com/api/deezer/artist/" , {
         "method": "GET",
         "headers": {
             "x-rapidapi-host": "deezerdevs-deezer.p.rapidapi.com",
@@ -37,7 +37,7 @@
                             <div> <img src="${songs.picture_xl}" style="width:50px" alt="">
                           </td>
                           <td>
-                            <div>Another one bite of love</div>
+                            <div>${songs}</div>
                           </td>
                           <td>
                             <div>
@@ -57,7 +57,9 @@
 
 
 window.onload = function(){
-
+  let params = new URLSearchParams(document.location.search); 
+  let id = params.get("id");
   loadSongs()
 }
  
+
