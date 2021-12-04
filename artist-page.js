@@ -1,7 +1,7 @@
 
     const loadSongs = function(id){
 
-    fetch("https://striveschool-api.herokuapp.com/api/deezer/artist/" , {
+    fetch("https://striveschool-api.herokuapp.com/api/deezer/artist/" + id , {
         "method": "GET",
         "headers": {
             "x-rapidapi-host": "deezerdevs-deezer.p.rapidapi.com",
@@ -59,7 +59,7 @@
 window.onload = function(){
   let params = new URLSearchParams(document.location.search); 
   let id = params.get("id");
-  loadSongs()
+  loadSongs(id)
 }
  
 

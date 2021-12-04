@@ -33,6 +33,11 @@ body {
   z-index: -1;
 }
 
+
+.nav-bar{
+  position: fixed;
+  z-index:1;
+}
 .chevrons {
   color: white;
   font-size: xx-large !important;
@@ -48,7 +53,15 @@ body {
 .dropdown, .dropdown-toggle {
   border-radius: 30px;
   border-width: 0;
+
 }
+
+.dropdown-item:hover{
+  background-color: rgba(128, 128, 128, 0.342);
+  color: white;
+}
+
+
 
 .side-bar {
   background-color: black;

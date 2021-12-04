@@ -21,7 +21,8 @@ const loadAlbum = (id) => {
           <h1 class="album-header">${albums.title}</h1>
           <div class="d-flex">
             <img src="https://picsum.photos/300/300" class="rounded-circle mr-3" width="30px" height="30px" alt="small image" />
-            <a class="ancher-header text-white" href="/artist-page.html?=${albums.artist.id}">${albums.artist.name}</a>
+            <a class="ancher-header text-white" href="/artist-page.html?id=${albums.artist.id}">${albums.artist.name}</a>
+            
             <div class="">
               <span class="headerSmallRow ml-1">• ${albums.release_date}</span>
               <span class="headerSmallRow">• ${albums.nb_tracks},</span>
@@ -49,7 +50,7 @@ const loadAlbum = (id) => {
       /* let i = 1 */
       row.innerHTML = `                
               <th class="TheaderText align-middle shortWidth p-1" scope="row"> ${i+1} </th>
-              <td class="TheaderText align-middle p-1">${albums.tracks.data[i].title} <br /><a class="link text-secondary" href="/artist-page.html?=${albums.artist.id}">${albums.artist.name}</a>
+              <td class="TheaderText align-middle p-1">${albums.tracks.data[i].title} <br /><a class="link text-secondary" href="/artist-page.html?id=${albums.artist.id}">${albums.artist.name}</a>
               </td>
               <td class="TheaderText align-middle text-right p-1">${totalTime}</td>
           `;
